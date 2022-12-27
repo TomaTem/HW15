@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: #61C0BF;" id="div1" onclick="col1()">
+        <input type="text" class="sum" tabindex="1"> + <input type="text" class="sum" tabindex="2">
+        <button style="width:30px" onclick="sum()" tabindex="3">=</button>
+        <span id="sum-res"></span>
+    </div>
+    
+    <div style="background-color: #BBDED6;" id="div2" onclick="col2()">
+        <input type="text" class="sub" tabindex="4"> - <input type="text" class="sub" tabindex="5">
+        <button style="width:30px" onclick="sub()" tabindex="6">=</button>
+        <span id="sub-res"></span>
+    </div>
+    
+    <div style="background-color: #FFB6B9;" id="div3" onclick="col3()">
+        <input type="text" class="mul" tabindex="7"> * <input type="text" class="mul" tabindex="8">
+        <button style="width:30px" onclick="mul()" tabindex="9">=</button>
+        <span id="mul-res"></span>
+    </div>
+    
+    <div style="background-color: #FAE3D9;" id="div4" onclick="col4()">
+        <input type="text" class="del" tabindex="10"> / <input type="text" class="del" tabindex="11">
+        <button style="width:30px" onclick="del()" tabindex="12">=</button>
+        <span id="del-res"></span>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
